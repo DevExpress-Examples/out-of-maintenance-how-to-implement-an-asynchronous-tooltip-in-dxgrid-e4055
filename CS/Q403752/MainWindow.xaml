@@ -15,7 +15,7 @@
                 <dxg:GridColumn FieldName="ID"/>
                 <dxg:GridColumn FieldName="Value">
                     <dxg:GridColumn.CellStyle>
-                        <Style BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=CellStyle}}" TargetType="dxg:GridCellContentPresenter">
+                        <Style TargetType="dxg:LightweightCellEditor">
                             <Setter Property="ToolTip">
                                 <Setter.Value>
                                     <!--GetToolTip="AsyncToolTip_GetToolTip"-->
